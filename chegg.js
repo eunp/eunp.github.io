@@ -81,7 +81,7 @@ function validCheck(username) {
 
 function checkUserExist(username) {
     return $.ajax({
-        url: "http://chegg-tutors.appspot.com/coding-challenge/api/user/?username=" + username,
+        url: "https://chegg-tutors.appspot.com/coding-challenge/api/user/?username=" + username,
         timeout: API_TIMEOUT
     });
 };
